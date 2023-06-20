@@ -96,3 +96,12 @@ COMMON_LUNCH_CHOICES += \
     dot_santoni-userdebug \
     dot_santoni-user \
     dot_santoni-eng
+
+# CarbonROm
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/carbon_santoni.mk
+
+COMMON_LUNCH_CHOICES += \
+    carbon_santoni-userdebug \
+    carbon_santoni-user \
+    carbon_santoni-eng
